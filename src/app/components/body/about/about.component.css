@@ -1,0 +1,75 @@
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 200px;
+    margin: auto;
+    top: -25px;
+    position: relative;
+}
+
+.social-links a{
+    text-decoration: none;
+    background-color: rgb(137, 135, 135);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+}
+
+.social-links fa-icon {
+    color: rgb(255, 255, 255);
+    background-color: rgb(137, 135, 135);
+    font-size: 25px;
+    margin: 8px;
+    border-radius: 50%;
+    
+}
+
+.cards {
+    width: 800px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 25px;
+    padding: 10px;
+    display: flex;
+}
+
+.cards .left-side {
+    width: 50%;
+    padding: 10px;
+}
+
+.cards .left-side p {
+    margin-top: 15PX;
+}
+
+
+.cards .right-side {
+    width: 50%;
+    padding: 10px;
+}
+
+.cards .right-side ul {
+    flex-direction: column;
+    list-style: none;
+    
+}
+
+.cards .right-side ul li {
+    display: flex;
+    padding: 5px;
+    cursor: pointer;
+    color:  black;
+    margin-top: 10PX;
+
+}
+
+.cards .right-side .ietem {
+    font-weight: bold;
+    border-radius: 1px solid black;
+    width: 100px;
+}

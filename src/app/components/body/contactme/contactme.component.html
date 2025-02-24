@@ -1,0 +1,30 @@
+<div class="conatct-card "> 
+  <h3>Contact Me</h3>
+  <div class="contact">
+    <form [formGroup]="contactForm" (submit)="submitform($event)" class="left-side">
+        <p>Feel free to contact me</p>
+        <input type="text" placeholder="Name" formControlName="name" />
+        <input type="text" placeholder="Subject" formControlName="subject" />
+        <input type="email" placeholder="Email" formControlName="email" />
+        <textarea placeholder="Your Message" id="input-message" formControlName="message" ></textarea>
+        <button class="btn">Send</button>
+    </form>
+   
+    <div class="right-side">
+      <div class="contact-info">
+        <p>Address </p>
+        <span>115, BanksiDr, Kitchener ON</span>
+      </div>
+      <div class="contact-info">
+        <p>Phone </p>
+        <span>118 278 2334</span>
+      </div>
+      <div class="contact-info">
+        <p>Email </p>
+        <span>someone&#64;email.com</span>
+      </div>
+
+    </div>
+  </div>
+
+</div>

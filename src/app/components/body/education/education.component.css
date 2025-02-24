@@ -1,0 +1,37 @@
+.education-title {
+    margin: 70px auto 20px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards {
+    width: 800px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 25px;
+    display: flex;
+}
+
+.cards .left-side {
+    width: 25%;
+    padding: 20px;
+    background-color: rgb(88, 205, 131);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.cards .right-side {
+    width: 75%;
+    padding: 10px;
+    padding: 20px;
+
+}
+
+.cards  p {
+    margin: 10px 0 20px;
+}
