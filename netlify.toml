@@ -1,9 +1,0 @@
-[build]
-    base = "hands-ex"
-    command = "npm run build:prod"
-    publish = "dist/browser"
-
-    [[redirects]]
-    from = "/*"
-    to = "/index.html"
-    status = 200
